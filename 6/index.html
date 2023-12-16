@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body class="">
+  
+        <div class="w-[100%] h-[900px] relative">
+            <div>
+                <img class="h-[900px] w-[380px] object-none sm:w-[100%]" src="images/header.png" />
+            </div>
+            
+            <nav class=" absolute left-0 top-0 flex justify-between items-center w-[100%] mx-auto z-10">
+                <div></div>
+                <div
+                    class="nav-links duration-500 md:static absolute hidden bg-white md:min-h-fit min-h-[800px] left-0 top-0 w-[100%]  w-full flex items-center px-5">
+                    <div class="inline-block flex flex-col md:hidden space-y-[43px] pl-[60px]">
+                        <div class="text-neutral-700 text-3xl font-medium font-['Montserrat']"><a href="#price">Цены</a></div>
+                        <div class="text-neutral-700 text-3xl font-medium font-['Montserrat']"><a href="#video">Видео</a></div>
+                        <div class="text-neutral-700 text-3xl font-medium font-['Montserrat']"><a href="#aboutus">О нас</a></div>
+                        <div class="text-neutral-700 text-3xl font-medium font-['Montserrat'] "><a href="#contactus">Оставить заявку</a></div>
+                        <div class="w-[259px] h-[51px] text-zinc-800 text-3xl font-black font-['Montserrat'] uppercase pt-[176px]">Картошечка</div>
+                    </div>
+                    <img class="absolute left-[75px] top-[700px] md:hidden " src="images/links.png" />
+                </div>
+                <div class="flex items-center gap-6">
+                  <ion-icon class="mt-[47px] mr-[35px] md:hidden h-10 w-10" onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+              </div>
+            </nav>
+            <div class="absolute top-0 right-24 mt-12 mr-4 flex justify-between space-x-12 items-center hidden md:inline-block">
+              <button 
+              class=
+              "text-center text-white text-xl font-medium font-['Montserrat'] hover:underline decoration-orange-400"><a href="#price">Цены</a></button>
+              <button class=
+              "text-center text-white text-xl font-medium font-['Montserrat'] hover:underline decoration-orange-400"><a href="#video">Видео</a></button>
+              <button class=
+              "text-center text-white text-xl font-medium font-['Montserrat'] hover:underline decoration-orange-400"><a href="#aboutus">О нас</a></button>
+              <button class=
+              "text-center text-white text-xl font-medium font-['Montserrat'] ring ring-white rounded-full hover:text-black hover:bg-white"><a href="#contactus">Оставить заявку</a></button>
+          </div>
+        </div>
+
+        <div class="absolute top-[430px] left-[150px] transform -translate-x-1/2 -translate-y-1/2 text-center sm:left-1/2">
+            <div class="text-white text-[92px] font-black font-['Montserrat'] uppercase md:flex md:justify-between md:text-[112px]"><p>Ка</p><p>рто</p><p>шеч</p><p>ка</p></div>  
+        </div>        
+
+        <div id="price">
+        <h1 class="underline decoration-amber-300 text-center text-neutral-700 text-6xl font-extrabold font-['Montserrat'] pt-[105px] pb-[105px]">Цены</h1>
+        <div class="w-full flex justify-center">
+          <div class="w-[412px] h-[254px] ">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide h-8"><img class="" src="images/potato1.png" alt="">
+                <p class="text-center text-neutral-700 text-3xl font-medium font-['Montserrat'] pt-[33px]">Столовый картофель</p> <p class="text-center text-amber-300 text-[40px] font-light font-['Montserrat'] pt-[9px]">150 Рублей</p>
+                  </div>
+                  <div class="swiper-slide h-8"><img class="w-[100%] h-[100%]" src="images/potato2.png" alt="">
+                <p class="text-center text-neutral-700 text-3xl font-medium font-['Montserrat'] pt-[33px]">Столовый картофель 2</p> <p class="text-center text-amber-300 text-[40px] font-light font-['Montserrat'] pt-[9px]">160 Рублей</p>
+                  </div>
+                  <div class="swiper-slide h-8"><img class="w-[100%] h-[100%]" src="images/potato3.png" alt="">
+                <p class="text-center text-neutral-700 text-3xl font-medium font-['Montserrat'] pt-[33px]">Столовый картофель 3</p> <p class="text-center text-amber-300 text-[40px] font-light font-['Montserrat']">170 Рублей</p>
+                  </div>
+                </div>
+
+                <div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div id="video"class="mt-[150px] bg-zinc-800 w-[340px] h-[400px] rounded-[50px] ml-0 mr-0 sm:w-full md:h-[840px] md:w-full">
+            <div><h1 class="pt-[70px] underline decoration-amber-300 text-center text-white font-[40px] sm:text-6xl font-extrabold font-['Montserrat']">Видео</h1></div>
+            <div class="flex justify-center pt-0 md:pt-[110px]">
+              <iframe class="md:hidden" width="340" height="177" md: src="https://www.youtube.com/embed/iGexL8aqKPg?si=eHvNYO415TqoiF2m" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+              </iframe>
+              <iframe class="hidden md:inline-block" width="770" height="440" md: src="https://www.youtube.com/embed/iGexL8aqKPg?si=eHvNYO415TqoiF2m" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+              </iframe>
+            </div>
+        </div>
+
+
+
+        <div class="mt-[89px] bg-white h-[700px]">
+          
+          <div id="aboutus" class="relative">
+
+            <div class="absolute top-32 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+              <div class="text-center sm:text-left">
+                <div class="text-center text-neutral-700 text-6xl font-extrabold font-['Montserrat']">О нас</div>
+              </div>
+            </div>
+            <div class="ml-10 hidden lg:inline-block">
+              <img src="images/firstpotato.png">
+            </div>
+            <div class="absolute w-full top-64 space-x-0 flex md:space-x-12 justify-center">
+              <div class="hidden ssm:inline-block">
+                <img src="images/woman.png">
+              </div>
+              <div class="text-center w-[500px]">
+                <div class="md:w-[400px] text-neutral-700 ">
+                  <p class="text-xl md:text-2xl font-normal font-['Montserrat'] md:leading-[29.07px]">Если картошка, запеченная в духовке, получается не всегда такой как хочется (сухая или наоборот мокрая, сыроватая
+                    внутри, недостаточно уданая по специям) - дайте шанс этому рецерту.</p>
+                <div class="md:w-[400px] md:text-2xl text-neutral-700 text-xl font-normal font-['Montserrat'] md:leading-[29.07px]">
+                  <p>Такая картошка по-деревенски стабильно получается очень скусная, хрустящас снаружи и мягкая, как пюрешка внутри,
+                  ароматная - в общем пальчики оближешь. Рецепт у меня простой, но с технологическим секретом, который и решает дело.</p>
+                </div>
+              </div>
+            </div>
+
+
+            
+            </div>
+
+          </div>
+        </div>
+        
+        <div id="contactus" class="flex justify-center z-10">   
+          <div class="mt-5 bg-gray-800 pt-12 h-[475px] w-[1024px] md:rounded-[50px]">
+            <div><h1 class=" text-5xl text-center text-white pt-6 pb-10 font-bold">Оставь заявку</h1></div>
+            <div class="flex flex-col space-y-8 items-center">
+
+            <input class="mr-3 ml-3 h-10 w-[350px] rounded-[10px]" placeholder="Имя">
+            <input class="mr-3 ml-3 h-10 w-[350px] rounded-[10px]" placeholder="Номер телефона">
+            <button class="h-16 rounded-full bg-yellow-400 mt-6"><p class="text-black text-2xl">Оставить заявку</p></button>
+            </div>
+          </div>
+        </div>
+
+            <div class="mt-[120px]">
+                <h1 class="text-5xl text-center font-bold">КАРТОШЕЧКА</h1>
+            </div>
+
+            <div class="flex justify-center mt-[30px]">
+                <img src="images/links.png" class="object-cover">
+            </div>
+        
+
+ 
+</body>
+<script src="scripts.js"></script>
+<script>
+    const navLinks = document.querySelector('.nav-links')
+    function onToggleMenu(e){
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        navLinks.classList.toggle('hidden')
+    }
+</script>
+</html>
